@@ -219,3 +219,23 @@ footer p {
     float: right;
     /* border-radius: 10px; */
 }
+
+
+/**************************************************/
+@media(max-width:500px) {
+    #layout {
+        flex-direction: column;
+        width:100%; height:initial;
+        overflow: hidden;
+    }
+    header {width:100%;}
+    header> h1 img {
+        margin:auto;
+    }
+    #slide img {
+        width:100%;
+    }
+    main {
+        flex-direction: column;
+    }
+}
